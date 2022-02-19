@@ -1,3 +1,5 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap");
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
@@ -40,6 +42,35 @@ table {
 
 td, th {
   padding: 0;
+}
+
+/*header*/
+.skullrock-background {
+  background: linear-gradient(to top left, #01264bd3 0%, #013a3ada 110%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+.skullrock-background img {
+  max-width: 60%;
+}
+.skullrock-background ul {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.skullrock-background ul div {
+  text-align: left;
+}
+.skullrock-background ul div li {
+  padding: 10px;
+  margin-right: 5px;
+}
+.skullrock-background ul div li a {
+  color: #ffffff;
+  font-family: cinzel;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
