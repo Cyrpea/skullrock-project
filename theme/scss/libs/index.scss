@@ -1,0 +1,63 @@
+/*header*/
+
+.skullrock-background{
+    background: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+
+    img{
+        max-width: 60%;
+    }
+
+    ul{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+
+        div{
+            text-align: left;
+        
+            li{
+                padding: 10px;
+                margin-right: 5px;
+
+                a{
+                    color: $white;
+                    font-family: cinzel;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+
+/*footer*/
+
+.footer-background{
+    background: $primary-reversed;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    h2{
+        color: $white;
+        padding: 20px 5px;
+        font-family: cinzel;
+    }
+
+    a{
+        color: $white;
+        padding: 0 5px 10px 10px;
+    }
+
+    #benoitmail{
+        cursor: pointer; 
+        font-family: sans-serif; 
+        font-weight: bold;
+        padding: 0 5px 10px 10px;
+        font-family: cinzel;
+    }
+}
