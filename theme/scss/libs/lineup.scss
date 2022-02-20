@@ -1,0 +1,65 @@
+/*List*/
+
+body {
+    background-color: $background-color;
+}
+
+h1 {
+    color: $text-color;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 15px;
+}
+
+h2 {
+    color: $text-color;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+.days {
+    display:block;
+    border-top: 1px solid $text-color; 
+    border-bottom: 1px solid $text-color;
+    margin: 25px 0;
+    padding: 15px 5px;
+
+    li {
+        display: inline;
+        
+        a {
+            text-decoration: none;
+            color: $text-color;
+            margin: 0 20px;
+
+            a:active {
+                color: $text-primary-color;
+                border-bottom: white;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+.date {
+    display: block;
+    text-align: center;
+    margin: 30px 15px;
+    color: $text-color;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.band-name {
+    font-family: Cinzel;
+    display: flex;
+    color: black;
+    background-color: $text-color;
+    padding: 10px 15px;    
+    font-weight: bold;
+}
+
+img {
+    max-width: 40%;
+}
