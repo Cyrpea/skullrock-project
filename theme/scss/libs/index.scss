@@ -32,3 +32,32 @@
         }
     }
 }
+
+
+/*footer*/
+
+.footer-background{
+    background: $primary-reversed;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    h2{
+        color: $white;
+        padding: 20px 5px;
+        font-family: cinzel;
+    }
+
+    a{
+        color: $white;
+        padding: 0 5px 10px 10px;
+    }
+
+    #benoitmail{
+        cursor: pointer; 
+        font-family: sans-serif; 
+        font-weight: bold;
+        padding: 0 5px 10px 10px;
+        font-family: cinzel;
+    }
+}

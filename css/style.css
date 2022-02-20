@@ -73,4 +73,28 @@ td, th {
   font-weight: 700;
 }
 
+/*footer*/
+.footer-background {
+  background: linear-gradient(to bottom, #013a3ada 0%, #01264bd3 110%);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-background h2 {
+  color: #ffffff;
+  padding: 20px 5px;
+  font-family: cinzel;
+}
+.footer-background a {
+  color: #ffffff;
+  padding: 0 5px 10px 10px;
+}
+.footer-background #benoitmail {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0 5px 10px 10px;
+  font-family: cinzel;
+}
+
 /*# sourceMappingURL=style.css.map */
