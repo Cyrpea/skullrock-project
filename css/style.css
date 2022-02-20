@@ -44,6 +44,18 @@ td, th {
   padding: 0;
 }
 
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
 /*header*/
 .skullrock-background {
   background: linear-gradient(to top left, #01264bd3 0%, #013a3ada 110%);
@@ -95,6 +107,67 @@ td, th {
   font-weight: bold;
   padding: 0 5px 10px 10px;
   font-family: cinzel;
+}
+
+/*List*/
+body {
+  background-color: #0C0C0E;
+}
+
+h1 {
+  color: #cfcfcf;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 15px;
+}
+
+h2 {
+  color: #cfcfcf;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
+.days {
+  display: block;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  margin: 25px 0;
+  padding: 15px 5px;
+}
+.days li {
+  display: inline;
+}
+.days li a {
+  text-decoration: none;
+  color: #cfcfcf;
+  margin: 0 20px;
+}
+.days li a a:active {
+  color: #013a3ada;
+  border-bottom: white;
+  font-weight: bold;
+}
+
+.date {
+  display: block;
+  text-align: center;
+  margin: 30px 15px;
+  color: #cfcfcf;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.band-name {
+  font-family: Cinzel;
+  display: flex;
+  color: black;
+  background-color: #cfcfcf;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+img {
+  max-width: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */
