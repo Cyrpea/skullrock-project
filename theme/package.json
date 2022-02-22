@@ -1,6 +1,21 @@
 {
     "name": "skullrock",
     "description": "Static Skullrock website based on a github repository with the project base",
+    "version": "1.0.0",
+    "contributors": [
+        {
+            "name": "Arnaud Englebert",
+            "working": "Markup & Style"
+        },
+        {
+            "name": "Thomas Englebert",
+            "working": "Markup & Style"
+        },
+        {
+            "name": "Siraee",
+            "working": "Interaction programming Front-end"
+        }
+    ],
     "devDependencies": {
         "autoprefixer": "^10.3.7",
         "clean-css-cli": "^5.4.0",
